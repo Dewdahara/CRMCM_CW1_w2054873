@@ -1,0 +1,73 @@
+{
+  "package_versions": {
+    "python": "3.13.18",
+    "pandas": "2.2.3",
+    "numpy": "2.4.6",
+    "yfinance": "0.2.66",
+    "matplotlib": "3.10.0",
+    "requests": "2.32.4",
+    "seaborn": "0.13.2",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1"
+  },
+  "retrieval_info": {
+    "constituents_source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "constituents_retrieved": "2026-11-10 17:04 UTC",
+    "universe_note": "Current S&P 500 constituents retrieved on the recorded date; not historical membership.",
+    "price_source": "Yahoo Finance via yfinance 0.2.66; auto_adjust=False; actions=False",
+    "prices_downloaded": "2026-11-10 17:06 UTC",
+    "study_start_inclusive": "2021-01-01",
+    "study_end_exclusive": "2025-01-01",
+    "benchmark": "^GSPC"
+  },
+  "study_period": {
+    "start": "2021-01-01",
+    "end_exclusive": "2025-01-01",
+    "benchmark": "^GSPC"
+  },
+  "observation_date": "2024-12-31",
+  "activity_window_sessions": {
+    "first": "2024-10-07",
+    "last": "2024-12-31"
+  },
+  "parameters": {
+    "base_window": 20,
+    "activity_window": 60,
+    "high_volume_multiplier": 2.0
+  },
+  "cleaning": {
+    "minimum_availability": 0.8,
+    "price_imputation": false,
+    "volume_imputation": false,
+    "confirmed_unadjusted_split_tickers": [],
+    "minimum_weekly_observations": 52
+  },
+  "counts": {
+    "constituents": 503,
+    "passed_daily_validation": 490,
+    "final_common_feature_shares": 490,
+    "excluded_total": 13,
+    "weekly_price_labels": 208,
+    "benchmark_weekly_returns": 207,
+    "weekly_return_observations_min": 178,
+    "weekly_return_observations_max": 207
+  },
+  "validation": {
+    "rule_failures": {
+      "R1 no data downloaded": 5,
+      "R2 below availability threshold": 6,
+      "R3 non-positive price": 0,
+      "R4 volume error": 2,
+      "R5 confirmed unadjusted split": 0,
+      "R6 gaps in latest 80 sessions": 0
+    },
+    "feature_stage_failures": {
+      "too_few_weekly_returns": 0,
+      "no_event_in_history": 0
+    },
+    "event_rule": "volume > 2.0 x mean of the previous 20 sessions (strict; tested day excluded)",
+    "sessions_required_before_observation_date": 80,
+    "history_checks_passed": true,
+    "common_valid_share_set": 490
+  }
+}
