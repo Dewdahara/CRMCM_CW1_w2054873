@@ -1,5 +1,0 @@
-Solution,Selected k,Silhouette: best k (all),Calinski-Harabasz: best k (all),Davies-Bouldin: best k (all),Silhouette: best k (feasible),Calinski-Harabasz: best k (feasible),Davies-Bouldin: best k (feasible)
-"Ward, risk-return",5,2,6,2,5,5,5
-"Ward, activity (RFM)",3,2,8,8,3,3,4
-"K-means, risk-return",4,2,8,8,4,4,4
-"K-means, activity (RFM)",4,2,6,7,4,4,4

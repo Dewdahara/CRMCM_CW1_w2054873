@@ -1,4 +1,0 @@
-cluster,Segment,Shares,Share of shares %,Median weekly return %,Median beta,Median Recency (days),Median Frequency (busy days),"Median traded value, 60d (USD bn)",Median traded value per day (USD m)
-0,"much older spikes, rarer spikes, mid traded value",92,18.775510204081634,0.25371649871631496,1.04655734288204,53.0,2.0,20.950199883756827,349.1699980626138
-1,"typical timing, typical frequency, high traded value",147,30.0,0.32604446781943996,0.9934699651359788,11.0,3.0,41.19173719536438,686.528953256073
-2,"typical timing, typical frequency, mid traded value",251,51.22448979591837,0.25012164634188,0.9273670148702126,11.0,3.0,11.201617649233246,186.69362748722077
