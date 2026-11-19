@@ -1,0 +1,12 @@
+{
+  "study_period": {
+    "start": "2021-01-01",
+    "end_exclusive": "2025-01-01",
+    "benchmark": "^GSPC",
+    "observation_date": "2024-12-31",
+    "final_share_count": 490
+  },
+  "evaluation": {
+    "average_pairwise_return_correlation": 0.2985
+  }
+}

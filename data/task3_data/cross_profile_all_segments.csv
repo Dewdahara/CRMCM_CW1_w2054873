@@ -1,0 +1,17 @@
+Solution,Segment,Shares,Median return % per week,Median beta,Median Recency (days),Median busy days,Median traded value per day (USD m)
+RR_Ward,"higher beta, very high return",36,0.8024127556558951,1.444517061149876,11.0,3.0,449.66453310596467
+RR_Ward,"lower beta, average return",123,0.19532406021471999,0.518713175319102,11.0,3.0,242.77695674933753
+RR_Ward,"market-like beta, higher return",175,0.41079780806879995,0.9993595196745368,11.0,3.0,304.89012771884916
+RR_Ward,"higher beta, average return",45,0.26150893931502,1.5012050657138067,11.0,3.0,484.49951855733235
+RR_Ward,"market-like beta, lower return",111,0.07575728771903,1.030651071303322,11.0,3.0,226.60744548413595
+RR_KMeans,"market-like beta, higher return",155,0.44460478662016994,0.9934699651359788,11.0,3.0,306.25510558330535
+RR_KMeans,"market-like beta, lower return",121,0.11206079864555,1.160050332356206,11.0,3.0,246.12522418294273
+RR_KMeans,"lower beta, average return",175,0.18517275266361,0.6105316471924088,11.0,3.0,236.7599282560158
+RR_KMeans,"higher beta, higher return",39,0.71923840184308,1.6850226753159203,18.0,3.0,766.9248988165538
+RFM_Ward,"much older spikes, rarer spikes, mid traded value",92,0.25371649871631496,1.04655734288204,53.0,2.0,349.1699980626138
+RFM_Ward,"typical timing, typical frequency, high traded value",147,0.32604446781943996,0.9934699651359788,11.0,3.0,686.528953256073
+RFM_Ward,"typical timing, typical frequency, mid traded value",251,0.25012164634188,0.9273670148702126,11.0,3.0,186.69362748722077
+RFM_KMeans,"much older spikes, rarer spikes, mid traded value",60,0.23694378715367997,1.0345803417950736,55.5,2.0,352.4559231452274
+RFM_KMeans,"typical timing, rarer spikes, mid traded value",213,0.25926593442622997,0.931355237251318,11.0,2.0,222.3862717305247
+RFM_KMeans,"typical timing, frequent spikes, mid traded value",122,0.253287589528965,0.9223573585051458,11.0,4.0,213.7648805235227
+RFM_KMeans,"typical timing, typical frequency, high traded value",95,0.32367693529316,1.0676804954642884,11.0,3.0,1003.0573558225377
